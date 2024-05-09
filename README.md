@@ -31,7 +31,7 @@ In particular, the supported data types are:
 To make the library capable of working with and creating lists that hold heterogeneous data types, each list item
 contains a <code>struct</code> data type defined as:
 
-```
+```C
 /* Heterogeneous Data Packet Definition */
 typedef struct hetdata
 {
